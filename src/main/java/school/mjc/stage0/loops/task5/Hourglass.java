@@ -2,9 +2,6 @@ package school.mjc.stage0.loops.task5;
 
 public class Hourglass {
     public void printHourglassOfGivenSize(int height) {
-        if (height % 2 == 0) {
-            height++; // Increase size by 1 if it's even to make it odd
-        }
 
         for (int i = 0; i < height; i++) {
             for (int j = 0; j < height; j++) {
